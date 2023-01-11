@@ -1,0 +1,1 @@
+{"mappings":"AAAA,MAAM,yBAAyB,IAAI,CAAC,CAAA,MAAK,IAAI,IAAI,IAAI,IAAI,CAAC,CAAA,MAAK,QAAQ,GAAG,CAAC;AAC3E,QAAQ,GAAG,CAAC","sources":["public/index.js"],"sourcesContent":["fetch('http://localhost:3001').then(res=>res.json()).then(res=>console.log(res))\nconsole.log('this is JS')\n"],"names":[],"version":3,"file":"index.488ef020.js.map","sourceRoot":"/__parcel_source_root/"}
