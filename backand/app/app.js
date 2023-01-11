@@ -9,14 +9,17 @@ const port =3001
 
 // app.use(cors)
 app.get('/', cors(), (req, res) => {
-    res.send({user: 'ivan'})
-})
+    price.getResult.then(result=> {
+      res.send(result)
+        })
+    })
+console.log(typeof price.getResult)
 
-price.getResult.then(res=> {
+
     app.listen(port, () => {
         console.log(`Example app listening on port ${port}`)
     })
-})
+
 
 
 
